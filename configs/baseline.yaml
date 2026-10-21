@@ -1,0 +1,12 @@
+seed: 42
+data:
+  num_frames: 16
+  image_size: 224
+  split_fractions: {train: 0.70, val: 0.15, test: 0.15}
+model:
+  name: MCG-NJU/videomae-base-finetuned-kinetics
+train:
+  epochs: 5
+  batch_size: 4
+  learning_rate: 5.0e-5
+  

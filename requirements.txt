@@ -1,0 +1,7 @@
+numpy
+pandas
+scikit-learn
+pyyaml
+tqdm
+opencv-python-headless
+pytest

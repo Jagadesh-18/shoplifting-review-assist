@@ -1,0 +1,14 @@
+venv/
+__pycache__/
+*.pyc 
+.env
+.ipynb_checkpoints/
+runs/
+*.pt
+*.pth
+*.ckpt 
+
+# raw and intermediate video data never goes to GitHub
+
+data/raw/
+data/interim/
